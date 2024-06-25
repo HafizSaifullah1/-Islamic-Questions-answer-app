@@ -1,0 +1,5 @@
+.cursorCard:hover{
+    cursor: pointer;
+    background-color: #df3947;
+    transition: 0.4s;
+}
