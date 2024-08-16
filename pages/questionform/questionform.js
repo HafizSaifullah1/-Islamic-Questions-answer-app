@@ -41,7 +41,7 @@ window.addQuestion = function () {
     var reference = ref(db, `question/${obj.id}`)
     set(reference, obj)
         .then(function () {
-            window.location.assign("../../index.html")
+            window.location.assign("/pages/question/question.html")
         })
         .catch(function (err) {
             alert(err.massage)
