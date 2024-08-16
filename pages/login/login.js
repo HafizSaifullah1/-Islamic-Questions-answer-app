@@ -42,10 +42,10 @@ window.login = function () {
     signInWithEmailAndPassword(auth, obj.email, obj.password)
         .then(function (res) {
 
-            alert("welcom", res)
+            alert("Welcome", res)
             window.location.assign("/pages/main/main.html")
         })
         .catch(function (err) {
-            alert("error", err)
+            alert(err)
         })
 }

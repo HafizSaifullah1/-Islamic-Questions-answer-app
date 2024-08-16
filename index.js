@@ -42,12 +42,12 @@ window.signup = function () {
 
 
         .then(function (res) {
-            alert("welcom", res)
+            console.log("welcom", res)
 
-            window.location.assign("/pages/main/main.html")
+            window.location.assign("pages/main/main.html")
         })
         .catch(function (err) {
-            alert("error", err)
+            console.log("error", err)
 
         })
 } 
